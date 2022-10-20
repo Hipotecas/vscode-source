@@ -213,6 +213,7 @@ export namespace Event {
 			},
 			onLastListenerRemove() {
 				subscription.dispose();
+				console.log('last')
 			}
 		};
 
