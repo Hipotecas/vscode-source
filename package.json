@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "esno src/test/buffer.ts",
+    "serve": "esno src/test/filters.test.ts",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
